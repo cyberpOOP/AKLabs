@@ -45,5 +45,9 @@ qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG 
 
 # Лаба 5
 ## Все так само як в 4 лабі
+# Змінилась лише назва файлу в команді
+PATH=$PATH:~/opt/xPacks/qemu-arm/xpack-qemu-arm-7.2.0-1/bin
+
+qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG --kernel ***lab5.elf***
 
 # Лабу 6-7 захищати не потрібно
